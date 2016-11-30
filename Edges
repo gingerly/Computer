@@ -1,0 +1,9 @@
+*Center pixel 0 and add negative and positive values around the center. Example: Sobel Operator. 
+
+*Use Correlation of Sobel and Image to get edge map in x and y directions.
+
+*Try Smoothing before doing edge detection. Take second derivative over smoothed edge image. 
+
+*Computational efficient convolution property: d(h*f)/dx = d(h)/d(x)*f. 
+Associativity of convolution allows us to change which operators were applied first.
+
