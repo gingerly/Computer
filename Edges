@@ -7,3 +7,15 @@
 *Computational efficient convolution property: d(h*f)/dx = d(h)/d(x)*f. 
 Associativity of convolution allows us to change which operators were applied first.
 
+*Canny Edge Detector:
+1. Smoothing derivatives to suppress noise and compute gradient.
+2. Threshold to find regions of significant gradient.
+3. Thin to get localized edge pixels.
+4. Connect the pixels. (Low and High Threshold(start edges))
+
+*Non-Maximal Suppression.
+Find the maximum along the already derived edge map line. Suppress other pixels.
+
+*High Thresholding initiates strong edges.
+
+
