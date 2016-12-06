@@ -1,0 +1,20 @@
+F: I(x,y) -> get good stuff. This is Computer Vision.
+
+*Parametric Model: Class of instances where each instance has parameters.
+
+*Choose a parametric model that best represents the feature.
+
+Voting: 
+1. Each edge point will cast the vote for say lines.
+Take the lines that get many votes.
+
+Find Lines:
+y=mx+b.
+x-> edge points.
+y -> line.
+(m,b) make the parameter space. Point in a image corresponds to line in parameter space.
+Bin the parameter space and take the bin that has maximum votes.
+
+Can you find perfectly vertical line?
+Polar Co-ordinates.
+Interesting: a point in image-space is a now a sinusoid in parameter space.
