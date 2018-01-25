@@ -16,5 +16,5 @@ y -> line.
 Bin the parameter space and take the bin that has maximum votes.
 
 Can you find perfectly vertical line?
-Polar Co-ordinates.
-Interesting: a point in image-space is a now a sinusoid in parameter space.
+Benefit of Polar Co-ordinates?
+Note: a point in image-space is a now a sinusoid in parameter space.
